@@ -1,0 +1,16 @@
+$baseColor: #2325b8;
+$secondColor: lighten($baseColor,30%);
+$thirdColor:darken($baseColor,40%);
+
+
+.section-1{
+  border: 5px solid $baseColor;
+}
+
+.section-2{
+  border: 5px solid $secondColor;
+}
+
+.section-3{
+  border: 5px solid $thirdColor;
+}
